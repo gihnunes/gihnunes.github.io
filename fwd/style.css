@@ -1,0 +1,212 @@
+/*estilos da minha página web*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+/*------*/
+/*-----------------------------------------------*/
+/*geral*/
+.text-center {
+    text-align: center;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+/*------------------------------------------------*/
+.container-cabecalho {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #000000, #630f00);
+}
+
+.container-cabecalho h3 {
+    font-weight: 600;
+    font-size: 6em;
+    color: #d5d8da;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*------------------------------------------------*/
+.container-navegacao {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+
+}
+
+.container-navegacao a {
+    font-size: 3em;
+    margin: 0px 50px;
+    text-decoration: none;
+    color: #d5d8da;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container-navegacao a:hover {
+    color: #ffffff;
+}
+
+/*------------------------------------------------*/
+.container-quem-somos {
+    overflow: auto;
+    background: linear-gradient(to right, #000000, #630f00);
+}
+
+.container-quem-somos .servico {
+    float: center;
+    margin: 60px auto;
+    background: linear-gradient(to right, #013801, #756402);
+    width: 50%;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container-quem-somos .servico .icone {
+    margin-bottom: 10px;
+}
+
+.container-quem-somos .servico-texto {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #f3ebeb;
+}
+
+.container-quem-somos .servico-texto-realce {
+    color: white;
+    font-weight: bold;
+}
+
+
+/*------------------------------------------------*/
+.container-servicos-contato {
+    background-color: #020202;
+    padding: 80px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.container-servicos-contato .botoes-servicos-contato {
+    padding: 60px;
+    text-align: center;
+}
+
+.botoes-servicos-contato a {
+	display: block;
+	max-width: 200px;
+	text-decoration: none;
+	font-size: 1.2em;
+	background: linear-gradient(to right, #013801, #756402);
+	color: white;
+	padding: 20px 60px;
+	margin: 10px auto;
+	border-radius: 15px
+    
+}
+
+.botoes-servicos-contato a:hover {
+    background-color: white;
+    color: black
+}
+
+/*-----------------------------------------------*/
+.container-servicos {
+    background: linear-gradient(to right, #000000, #630f00);
+    font-size: 1.1em;
+    text-align: center;
+    overflow: auto;
+}
+
+.container-servicos h1 {
+    font-size: 55px;
+    color: #ebeaea;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container-servicos h3 {
+    color: #ebeaea;
+    padding: 20px 0;
+    font-size: 45px;
+}
+
+.container-servicos article {
+    text-align: center;
+    margin: 40px;
+    float: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container-servicos li {
+    margin-bottom: 10px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 80px;
+    background: linear-gradient(to right, #000000, #630f00);
+    color: #ebeaea;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 1183px;
+}
+
+.capa{
+width: 1200px;
+height: 555px;
+}
+.titulos{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Introdução{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Futuro{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+.jogo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 85px;
+    text-align: center;
+    color: #000000;
+}
+
+
+
+.fservi{
+    padding: 80px;
+    background: black;
+    color: #ebeaea;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 1183px;
+ 
+}
+
+.capa2{
+    width: 1050px;
+height: 500px;
+}
+
+.vest{
+    width: 750px;
+height: 350px;
+}
